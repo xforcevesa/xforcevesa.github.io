@@ -32,7 +32,7 @@ git commit
 ```
 
 ### MAKING CHANGES
-- Add files:
+- Add newly created files:
 ```bash
 git add file1 file2
 ```
