@@ -12,8 +12,8 @@ git *
 - Let's have this git installed on GNU/Linux distribution. [Click here](https://git-scm.com/download/linux).
 - Before any operations, It's a good idea to introduce yourself to git with your name and email.Use this:
 ```bash
-git config --global user.name xforcevesa
-git config --global user.email nomodeset@qq.com
+git config --global user.name "xforcevesa"
+git config --global user.email "nomodeset@qq.com"
 ```
 
 ### IMPORTING A NEW PROJECT
