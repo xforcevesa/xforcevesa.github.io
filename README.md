@@ -1,6 +1,6 @@
 # Hello World!
 I'm new here.
 
-I intended learn to use git and markdown.
+Here are notes about git and markdown.
 
-Here are the notes.
+In the future I'll release a markdown parser and  tutorials about other version control toolkits.
