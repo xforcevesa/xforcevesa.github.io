@@ -65,11 +65,6 @@ git <subcommand> --help
 man git-<subcommand>
 ```
 
-- The tag \<subcommand\> can be replaced by the following words:
-
-:-: | :-: | :-: | :-: | :-:  
-help | config | bugreport | init | clone
-
 ## Conclusion
 
 - Now we have successfully installed and configured git.
