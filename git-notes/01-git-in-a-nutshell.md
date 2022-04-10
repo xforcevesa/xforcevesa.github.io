@@ -24,7 +24,7 @@
 
 - When changing data to git, git never actually erase any data in its database.
 
-- You can lose or mess up changes you haven't committed yet, but once you commit it, it's very difficult to lose it, unless you format or destroy the disk.
+- You can lose or mess up changes you haven't committed yet, but once you commit it, it's very difficult to lose it.
 
 - That is to say, we can experiment without the danger of severely screwing things up.
 
