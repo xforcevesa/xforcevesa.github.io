@@ -60,6 +60,38 @@ git commit
 
 - Regular expressions will be introduced in the future.
 
+## Viewing Commit History
+
+- We use ```git log``` to view the commit history. The out put is like this:
+ 
+```bash
+commit	e9c14b59ea2ec19afe22d60b07583b7e08c74290
+Author: Jakub Kicinski <kuba@kernel.org>
+Date:    Mon Mar 14 15:28:19 2022 -0700
+
+  Growing the network maintainers team from 2 to 3.
+```
+
+> I quote the log in Linux kernel git repository. Actually Linux kernel has millions of commits and its number increases every day.
+
+- The log provide the detailed information of every commit, including maintainer's nickname, email, date and hash code.
+
+- To show the difference Before and after each commit, we use:
+
+```bash
+git log --patch
+git log -p
+git log -p -2 #Display the first two commits
+```
+
+- To calculate how many lines and places are changed after each commit, we use ```git log --stat```
+
+- To format the output we use "--pretty=<format>" option.
+
+- There are too many options, most of which is seldom used. You can look up the document upon using them.
+
+- See also: ```man git-log```
+
 ## Other Operations
 ```bash
 #Viewing Differences
