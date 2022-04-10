@@ -17,7 +17,7 @@
 
 - It can re-create what any file looked like at any point in time by adding up all the patches.
 
-- It only works in every single computer system, and has the risk of data lost.
+- It only works in every single computer system, and has the risk of data loss.
 
 ## Centralized Version Control System
 - It is designed to meet the needs of collaborative development.
