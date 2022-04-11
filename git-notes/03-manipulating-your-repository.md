@@ -12,7 +12,7 @@ git add LICENSE #Optional
 git commit
 ```
 
-- If you want to volunteer to mirror a remote git repository, e.g. github repository, you can access it by using this:
+- If you'd like to volunteer to maintain a free software project, or simply to mirror a remote git repository, you can access it by using like this:
 
 ```bash
 git clone https://github.com/xforcevesa/HelloWorld
