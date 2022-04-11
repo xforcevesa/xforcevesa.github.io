@@ -20,13 +20,11 @@ In the future I'll release a markdown parser and  tutorials about other version 
 
 - Out of this, most people, including me, temporarily cannot be accustomed to lives completely without them.
 
-- It is okay for me to use GNU/Linux distrobutions instead of Microsoft Windows.
-
-- But without some proprietary driver the system cannot work normally.
+- It is okay for me to use GNU/Linux distrobutions instead of Microsoft Windows. But without some proprietary driver the system cannot work normally.
 
 - Some free software need heavy professional knowledge and crazy configurations, and even some of them often works badly, which may completely disappoint users.
 
-- Most people know nothing about console and cannot bear do anything by input commandlines. Even many of them know nothing about free software.
+- Most people know nothing about console and consider using commandline as an awkward user experience. Even many of them know nothing about free software.
 
 - I hope free softwares can be more user-friendly, enabling users indeed to use them fluently without any basics of computer science.
 
