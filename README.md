@@ -22,7 +22,11 @@ In the future I'll release a markdown parser and  tutorials about other version 
 
 - It is okay for me to use GNU/Linux distrobutions instead of Microsoft Windows. But without some proprietary driver the system cannot work normally.
 
-- Some free software need heavy professional knowledge and crazy configurations, and even some of them often works badly, which may completely disappoint users.
+- Some free software need heavy professional knowledge and crazy configurations.
+
+- For example, on GNU/Linux you need to learn to manage packages.Though there are GUI package managers and most of operations are automated, they may sometimes work awfully and it's not as convenient as that in Windows - double click, tap "Next Step" and you have a software installed.
+
+- Also many system settings are written in config files, which make people harder to alter them. It is far more troublesome than that in Windows - open "Control Panel" or Win10 settings and then you can get an overview of system configurations.
 
 - Most people know nothing about console and consider using commandline as an awkward user experience. Even many of them know nothing about free software.
 
