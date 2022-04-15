@@ -1,35 +1,37 @@
 # Hello World!
 
-I'm new here.
+- I'm new here.
 
-Here are notes about git and markdown.
+- Here are notes about git, markdown, and some other useful things for programmers.
 
-In the future I'll release a markdown parser and  tutorials about other version control toolkits.
+- This is my first repository in Github! Hence, I name it "Hello World". Thanks for your stars!
 
-# About My Philosophy
+# Why I Use English
 
-- I am an Asian senior high now(when it's 2022-4-11).
+- Of course my mother tongue is not English. But there are some reasons why I use it.
 
-- I stand with free software, as is claimed and recommended by Free Software Foundation and GNU project.
+1. English is actually the most universal language.
 
-- In my opinion, free software is the subset of open source, because some open source software restrict user's freedom.
+2. ASCII is actually the most universal character set. Every operating system supports it, unless it can't receive user's keyboard input. If I don't use ASCII, there may appear something wrong with text display.
 
-- Free Software Foundation urges users of proprietary softwares to move to the corresponding alternative free software. But I dare say in the short run it is almost impossible to let everyone do that.
+3. If you've used operating systems except Microsoft Windows before, you will know that configuring a non-English input method is painful. Most of the input methods are proprietary, unstable and difficult to use. Thus, I would rather use English.
 
-- After all, a lot of proprietary software is widely used, including the majority of social apps, hardware drivers(Like notorious Nvida driver), operating systems.
+# About Me
 
-- Out of this, most people, including me, temporarily cannot be accustomed to lives completely without them.
+- I'm an Asian senior high student.
 
-- It is okay for me to use GNU/Linux distrobutions instead of Microsoft Windows. But without some proprietary driver the system cannot work normally.
+- My first step in IT field began when I first knew about deepin Linux - an elegant GNU/Linux distribution from PRC. It was not long before I installed it with the help of tutorials and successfully made it coexist with Microsoft Windows.
 
-- Some free software need heavy professional knowledge and crazy configurations.
+- Since then I've been crazy about computer science. So far I've found a large amount of programming languages, such as C/C++, Java, HTML/CSS/JS, Ruby, PHP, Python, Perl, Julia, Crystal, Rust, Go, Erlang, Elixir, Common Lisp, Scheme, Tcl, Nim, Vala, Typescript, Coffeescript, Haskel, Objective-C, C#, F#, VB.NET, Swift, etc.In the future I'll release some articles to discuss them.
 
-- For example, on GNU/Linux you need to learn to manage packages.Though there are GUI package managers and most of operations are automated, they may sometimes work awfully and it's not as convenient as that in Windows - double click, tap "Next Step" and you have a software installed.
+- Programming languages are just tools. What matters most is how to make the most of them to structure powerful softwares or toolkits. Viewing many programming languages, I am amazed at their various features. I believe with my numerous efforts I will have a total insight of the whole software system - including graphics, audios, hardware drivers and operating systems.
 
-- Also many system settings are written in config files, which make people harder to alter them. It is far more troublesome than that in Windows - open "Control Panel" or Win10 settings and then you can get an overview of system configurations.
+## My Philosophy
 
-- Most people know nothing about console and consider using commandline as an awkward user experience. Even many of them know nothing about free software.
+- I stand with **free software**, as is introducted by *Free Software Foundation*.
 
-- I hope free softwares can be more user-friendly, enabling users indeed to use them fluently without any basics of computer science.
+- Differing from *open source* softwares, not only do free softwares have their source codes easily accessed, but they also indeed **respect user's freedom**. **People should have the right to run, study, fix and share the software they use.**
 
-- Also I'll be dedicated to free software project to make the world better!
+- My suggestions: We should use neither ~~open source~~ to quote free software, nor ~~commercial software~~ and ~~close source~~ to refer to proprietary software. There are alternative words for free software: **Libre**, **FOSS** and **FLOSS**, and for proprietary ones: **non-free**.
+
+- It's a shame that many apps widely used - such as Microsoft Windows - are proprietary. But I'm happy when I see some free software projects are launched to provide a compatible POSIX layout or complete kernel alternative - Cygwin, WineHQ, ReactOS, etc. I firmly hold the belief that with the advancement of productivity, free software will decide the destination of software industry's progress.
