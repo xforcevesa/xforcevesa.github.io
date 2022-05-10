@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 2vh;
+}
+body div {
+  margin: 0 auto;
+  width: 95vw;
+  background-color: grey;
+}
+body div nav {
+  background: #444;
+  color: #ccc;
+  line-height: 6vh;
+}
+div.search {
+  padding: 20px 0;
+}
+div.search form input {
+  outline-style: none;
+  border: 0;
+  border-radius: 3px;
+  padding: 10px;
+  font-family: "Microsoft soft";
+  text-align: left;
+}
+div.search form button {
+  border: 0;
+  border-radius: 3px;
+  padding: 10px;
+}
