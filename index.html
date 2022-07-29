@@ -5,6 +5,23 @@
   <meta name="viewport" content="width=device-width;initial-scale=1">
   <title>Blogs Of modeset Terminator</title>
   <link rel="stylesheet" href="./style/style.css" type="text/css" media="all" />
+  <script>
+    selectBaidu = function() {
+      document.getElementById("search-form").action = "https://www.baidu.com/s?"
+      document.getElementById("search-name").name = "wd"
+      document.getElementById("search-engine").innerText = "Baidu"
+    }
+    selectBing = function() {
+      document.getElementById("search-form").action = "http://www.bing.com/search?"
+      document.getElementById("search-name").name = "q"
+      document.getElementById("search-engine").innerText = "Bing"
+    }
+    selectSougou = function() {
+      document.getElementById("search-form").action = "https://www.sogou.com/web?"
+      document.getElementById("search-name").name = "query"
+      document.getElementById("search-engine").innerText = "Sougou"
+    }
+  </script>
 </head>
 <body>
   <ul class="nav">
@@ -15,12 +32,17 @@
   <div class="main">
     <h1>Blogs Of modeset Terminator</h1>
     <p>Here is a blog website of mine to introduce myself and contain my blogs.</p>
+    <p>NOTICE: Now You Are Using <b id="search-engine">Bing</b> Search Engine! </p>
     <div class="search">
-      <form action="http://www.bing.com/search?" method="get" accept-charset="utf-8">
-        <input type="text" name="q" placeholder="Surf The dotcom using Bing !" />
+      <form action="http://www.bing.com/search?" id="search-form" method="get" accept-charset="utf-8">
+        <input type="text" name="q" id="search-name" placeholder="Surf The dotcom using Bing !" />
         <button type="submit">Search</button>
       </form>
     </div>
+    <p>Select Your Favorate Search Engine: </p>
+    <input type="radio" name="select-search" checked onclick="javascript: selectBing()"> Bing
+    <input type="radio" name="select-search" onclick="javascript: selectBaidu()"> Baidu
+    <input type="radio" name="select-search" onclick="javascript: selectSougou()"> Sougou
   </div>
   <footer>
     &nbsp;Created with heart by nomodeset_xforcevesa
