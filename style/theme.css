@@ -14,8 +14,8 @@
     --navitems-color: var(--color-clouds);
     --h-color: var(--color-wistoria);
     --hline-color: var(--color-belize-hole);
-    --p-color: #333;
+    --p-color: var(--color-wet-asphalt);
     --background-color: var(--color-clouds);
     --navhead-color: var(--color-green-sea);
-    --act-color: var(--color-carrot);
+    --act-color: var(--color-belize-hole);
 }

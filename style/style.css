@@ -58,7 +58,7 @@ ul.nav li a:hover {
 }
 .main h1, .main h2, .main h3 {
   margin-top: 0;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.6;
   font-family: "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
   margin-bottom: 10px;
@@ -70,10 +70,13 @@ ul.nav li a:hover {
 .main p, .main ul {
   font-family: SimSun, serif;
   font-size: large;
+  color: var(--p-color);
   margin: 10px auto;
 }
 .main p b {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  border-bottom-style: dotted;
+  font-size: 100%;
 }
 footer {
   text-align: center;
