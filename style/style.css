@@ -33,7 +33,7 @@ ul li {
   float: left;
 }
 ul li:first-child {
-  background-color: #004;
+  background-color: var(--color-turquoise);
 }
 ul li a {
   display: block;
@@ -47,7 +47,7 @@ ul li a:hover {
 }
 @keyframes onclicked {
   to {
-    background-color: #559;
+    background-color: #2a4;
     text-decoration: underline;
   }
 }
