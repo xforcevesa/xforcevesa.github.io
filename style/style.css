@@ -20,7 +20,7 @@ div.search form button {
   border-radius: 10px;
   padding: 10px;
 }
-ul {
+ul.nav {
   list-style-type: none;
   overflow: hidden;
   background-color: var(--navbar-color);
@@ -28,23 +28,23 @@ ul {
   top: 0%;
   width: 100%;
 }
-ul li {
+ul.nav li {
   float: left;
 }
-ul li:first-child {
+ul.nav li:first-child {
   background-color: var(--navhead-color);
 }
-ul li a {
+ul.nav li a {
   display: block;
   color: var(--navitems-color);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-ul li a:hover {
-  animation: onclicked 2s;
+ul.nav li a:hover {
+  animation: nav-onclicked 2s;
 }
-@keyframes onclicked {
+@keyframes nav-onclicked {
   to {
     background-color: var(--act-color);
     text-decoration: underline;
@@ -67,7 +67,7 @@ ul li a:hover {
   width: 95%;
   color: var(--h-color);
 }
-.main p {
+.main p, .main ul {
   font-family: SimSun, serif;
   font-size: large;
   margin: 10px auto;
