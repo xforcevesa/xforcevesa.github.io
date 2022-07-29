@@ -10,10 +10,12 @@
 } */
 /* Theme Two */
 :root {
-    --navbar-color: var(--color-green-sea);
+    --navbar-color: var(--color-turquoise);
     --navitems-color: var(--color-clouds);
     --h-color: var(--color-wistoria);
     --hline-color: var(--color-belize-hole);
     --p-color: #333;
     --background-color: var(--color-clouds);
+    --navhead-color: var(--color-green-sea);
+    --act-color: var(--color-carrot);
 }
