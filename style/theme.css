@@ -1,10 +1,19 @@
 @import url(./colors.css);
 /* Theme One */
-:root {
+/* :root {
     --navbar-color: var(--color-midnight-blue);
-    --navitems-color: var(--color-clouds);
+    --navitems-color: var(--color-clouds); 
     --h-color: var(--color-vistoria);
     --hline-color: var(--color-clouds);
     --p-color: black;
     --background-color: var(--color-silver);
+} */
+/* Theme Two */
+:root {
+    --navbar-color: var(--color-green-sea);
+    --navitems-color: var(--color-clouds);
+    --h-color: var(--color-wistoria);
+    --hline-color: var(--color-belize-hole);
+    --p-color: #333;
+    --background-color: var(--color-clouds);
 }
