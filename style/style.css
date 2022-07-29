@@ -1,0 +1,79 @@
+@import url(./theme.css);
+* {
+  margin: 0;
+  padding: 0;
+  
+  font-size: 2vh;
+}
+div.search {
+  padding: 20px 0;
+}
+div.search form input {
+  outline-style: none;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Microsoft soft";
+  text-align: left;
+}
+div.search form button {
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: var(--navbar-color);
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+ul li {
+  float: left;
+}
+ul li:first-child {
+  background-color: #004;
+}
+ul li a {
+  display: block;
+  color: var(--navitems-color);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul li a:hover {
+  animation: onclicked 2s;
+}
+@keyframes onclicked {
+  to {
+    background-color: #559;
+    text-decoration: underline;
+  }
+}
+.main {
+  padding: 20px;
+  margin-top: 50px;
+  background-color: var(--background-color);
+  text-align: left;
+}
+.main h1, .main h2, .main h3 {
+  margin-top: 0;
+  font-weight: 700;
+  line-height: 1.6;
+  font-family: "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-bottom: 2px var(--hline-color) solid;
+  width: 95%;
+  color: var(--h-color);
+}
+.main p {
+  font-family: SimSun, serif;
+  font-size: large;
+  margin: 10px auto;
+}
+.main p b {
+  font-weight: 600;
+  text-decoration: underline;
+}
