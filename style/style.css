@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  
   font-size: 2vh;
 }
 div.search {
@@ -75,4 +74,9 @@ ul li a:hover {
 }
 .main p b {
   text-decoration: underline;
+}
+footer {
+  text-align: center;
+  font-size: 50%;
+  color: grey;
 }
