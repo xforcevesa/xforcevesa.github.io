@@ -6,17 +6,17 @@
   <title>Blogs Of modeset Terminator</title>
   <link rel="stylesheet" href="./style/style.css" type="text/css" media="all" />
   <script>
-    selectBaidu = function() {
+    selectBaidu = () => {
       document.getElementById("search-form").action = "https://www.baidu.com/s?"
       document.getElementById("search-name").name = "wd"
       document.getElementById("search-engine").innerText = "Baidu"
     }
-    selectBing = function() {
+    selectBing = () => {
       document.getElementById("search-form").action = "http://www.bing.com/search?"
       document.getElementById("search-name").name = "q"
       document.getElementById("search-engine").innerText = "Bing"
     }
-    selectSougou = function() {
+    selectSougou = () => {
       document.getElementById("search-form").action = "https://www.sogou.com/web?"
       document.getElementById("search-name").name = "query"
       document.getElementById("search-engine").innerText = "Sougou"

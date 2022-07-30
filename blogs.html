@@ -5,6 +5,16 @@
   <meta name="viewport" content="width=device-width;initial-scale=1">
   <title>Blogs Of modeset Terminator - Blogs</title>
   <link rel="stylesheet" href="./style/style.css" type="text/css" media="all" />
+  <script>
+    const http = new XMLHttpRequest()
+    getHTML = (url) => {
+      http.open("GET", url)
+      http.send()
+      http.onreadystatechange = (e) => {
+        document.getElementById("main").innerHTML = http.responseText
+      }
+    }
+  </script>
 </head>
 <body>
   <ul class="nav">
@@ -13,9 +23,13 @@
     <li class="about"><a href="./about.html">About</a></li>
   </ul>
   <div class="main">
-    <h1>Synopsis</h1>
-    <p>Here is the blogs, to be continued.</p>
+    <item style="display: inline; color: var(--color-alizarin); font-size: 120%;" onclick="javascript: getHTML('./blogs/blog.html')">Prev</item>
+    <item style="color: var(--color-alizarin); font-size: 120%;">Next</item>
+    <div id="main"></div>
   </div>
+  <script>
+    getHTML("./blogs/blog.html")
+  </script>
   <footer>
     &nbsp;Created with heart by nomodeset_xforcevesa
   </footer>
