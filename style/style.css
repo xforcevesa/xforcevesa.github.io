@@ -67,12 +67,17 @@ ul.nav li a:hover {
   width: 95%;
   color: var(--h-color);
 }
-.main p, .main ul {
+.main p, .main ul, .main ol {
   font-family: SimSun, serif;
   font-size: large;
   color: var(--p-color);
   margin: 10px auto;
+}
+.main ul {
   list-style-type: none;
+}
+.main ol {
+  margin-left: 9px;
 }
 .main p b {
   /* text-decoration: underline; */
@@ -92,7 +97,7 @@ item {
   color: var(--color-pumpkin);
   text-decoration: none;
   border-bottom-style: dotted;
-  font-size: 80%;
+  font-size: 90%;
 }
 .main a:hover, item:hover {
   animation: a-onclicked 3s;
